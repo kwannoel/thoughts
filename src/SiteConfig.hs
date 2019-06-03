@@ -4,6 +4,8 @@ module SiteConfig where
 import Hakyll
 import Text.RawString.QQ
 
+-- Note when running the following,  make sure there is no local master branch!
+
 deployCmd :: String
 deployCmd = [r|
 git stash
