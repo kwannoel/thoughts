@@ -13,4 +13,5 @@ I have too many thoughts spinning in and out of orbit; by writing I structure th
 I hope you pick up some things of value and feel free to approach me in person for a discussion :)
 
 Regards,
+
 Noel
