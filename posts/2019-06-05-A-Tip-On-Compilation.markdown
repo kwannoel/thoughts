@@ -14,7 +14,7 @@ The binaries (.o and .hi) compiled without linking to an executable.
 
 That was rather strange.
 
-I tried further changing the file module name to main and it then linked.
+I tried further changing the file module name to main and it then linked producing the executable I needed.
 
 --
 
