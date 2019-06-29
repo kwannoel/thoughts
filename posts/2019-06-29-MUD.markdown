@@ -1,0 +1,16 @@
+---
+title: MUD
+---
+
+*Text-based multiplayer games*
+
+---
+
+Recently I found out about a game format, MUD which linked to something I was thinking about for a long time.
+
+Multiplayer games on telegram with a persistent state.
+
+Perhaps this would be a good way to run virtual board games. (I'm a collector!)
+
+Also, I was quite inspired by dwarf fortress, DCSS and NetHack. Would like to build a multiplayer rogue-like game as well.
+
