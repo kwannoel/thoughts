@@ -3,11 +3,14 @@
 import           Data.Monoid (mappend)
 import           Hakyll
 import           SiteConfig (deployCfg)
+import           qualified GHC.IO.Encoding as E
 
 
 --------------------------------------------------------------------------------
 main :: IO ()
-main = hakyllWith deployCfg $ do
+main = do
+  E.setLocaleEncoding E.utf8
+  hakyllWith deployCfg $ do
     match "images/*" $ do
         route   idRoute
         compile copyFileCompiler
