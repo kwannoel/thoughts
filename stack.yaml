@@ -64,4 +64,5 @@ packages:
 # compiler-check: newer-minor
 nix:
   enable: true
+  pure: false
   packages: [zlib.dev, zlib.out]
