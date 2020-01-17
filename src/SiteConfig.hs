@@ -8,15 +8,13 @@ import Text.RawString.QQ
 
 deployCmd :: String
 deployCmd = [r|
-git stash
-git checkout develop
 stack exec myblog rebuild
-git fetch --all
-git checkout -b master --track origin/master
-cp -a _site/. .
+git checkout -b master
+mkdir docs
+cp -a _site/* docs -r
 git add -A
 git commit -m 'Publish.'
-git push origin master:master -f
+git push origin master -f
 git checkout develop
 git branch -D master
 git stash pop
