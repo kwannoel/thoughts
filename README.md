@@ -1,13 +1,15 @@
-# myblog
+# Documentation:
 
-## Steps to deploy blog:
+## Steps to deploy static site:
 
 - Remember to run `stack build` in the event the `src` files need to be rebuilt
 - Add and commit all files to be updated to the `deploy` branch **ONLY**
-- run `stack exec myblog deploy`
+- run `stack exec thoughts deploy`
 
 ## Things to note:
 
 - The deployment script is in `src/SiteConfig.hs`
 - The blog post directory is in `/posts'`
 - The source is at `/docs` as configured on github, configured via the deploymen script
+- If you change the binary name remember to run `stack clean --full` to avoid
+  running old binaries

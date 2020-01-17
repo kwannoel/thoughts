@@ -8,7 +8,7 @@ import Text.RawString.QQ
 
 deployCmd :: String
 deployCmd = [r|
-stack exec myblog rebuild
+stack exec thoughts rebuild
 git checkout -b master
 mkdir docs
 cp -a _site/* docs -r

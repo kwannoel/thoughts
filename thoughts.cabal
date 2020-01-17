@@ -1,19 +1,19 @@
-name:                myblog
+name:                thoughts
 version:             0.1.0.0
 -- synopsis:
 -- description:
-homepage:            https://github.com/githubuser/myblog#readme
+homepage:            https://github.com/kwannoel/thoughts#documentation
 license:             BSD3
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2019 Author name here
+author:              Noel
+maintainer:          noelkwan1998@gmail.com
+copyright:           2019 Noel Kwan
 category:            Web
 build-type:          Simple
 extra-source-files:  README.md
 cabal-version:       >=1.10
 
-executable myblog
+executable thoughts
   hs-source-dirs:      src
   other-modules:       SiteConfig
   main-is:             site.hs
