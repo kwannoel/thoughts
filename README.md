@@ -1,6 +1,13 @@
 # myblog
 
-Steps to deploy blog:
+## Steps to deploy blog:
 
+- Remember to run `stack build` in the event the `src` files need to be rebuilt
 - Add and commit all files to be updated to the `deploy` branch **ONLY**
 - run `stack exec myblog deploy`
+
+## Things to note:
+
+- The deployment script is in `src/SiteConfig.hs`
+- The blog post directory is in `/posts'`
+- The source is at `/docs` as configured on github, configured via the deploymen script
