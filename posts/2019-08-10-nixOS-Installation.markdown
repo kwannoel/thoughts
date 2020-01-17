@@ -2,10 +2,6 @@
 title: NixOS - Installation on gtx1050 drivers
 ---
 
-*Lets get this bread*
-
---
-
 My computer faced two issues:
 1) Graphic card driver incompatibilities.
 2) Unable to boot from nixOS liveCD.

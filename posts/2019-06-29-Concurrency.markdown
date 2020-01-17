@@ -2,10 +2,6 @@
 title: Concurrency in Haskell
 ---
 
-*In order to finish up my outstanding task I had to pick up concurrency*
-
----
-
 NOTE: You may reference Control.Currency for a more up to date insight.
 
 In this post I am exploring something called forkIO. Here is the context:

@@ -2,10 +2,6 @@
 title: Linux file paths tripped me once
 ---
 
-*Hmm...*
-
---
-
 Was trying to run some executables after building via GHC like so: 
 
 > stack exec hello
