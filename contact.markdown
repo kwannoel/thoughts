@@ -2,4 +2,4 @@
 title: Contact
 ---
 
-Email: kwanzknoel<at>gmail<dot>com
+Email: kwanzknoel**at**gmail**dot**com
