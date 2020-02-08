@@ -4,7 +4,8 @@
 
 - Remember to run `stack build` in the event the `src` files need to be rebuilt
 - Add and commit all files to be updated to the `develop` branch **ONLY**
-- run `stack exec thoughts deploy`
+> # run `stack exec thoughts deploy` # currently doesnt work due to a bug in stack
+- run `source deploy.sh` instead
 
 ## Things to note:
 
