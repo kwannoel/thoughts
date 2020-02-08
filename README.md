@@ -3,7 +3,7 @@
 ## Steps to deploy static site:
 
 - Remember to run `stack build` in the event the `src` files need to be rebuilt
-- Add and commit all files to be updated to the `deploy` branch **ONLY**
+- Add and commit all files to be updated to the `develop` branch **ONLY**
 - run `stack exec thoughts deploy`
 
 ## Things to note:
