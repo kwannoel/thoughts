@@ -19,7 +19,7 @@ main = do
         route   idRoute
         compile compressCssCompiler
 
-    match (fromList ["about.md", "contact.markdown"]) $ do
+    match (fromList ["about.md", "contact.markdown", "Project ideas.md"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
