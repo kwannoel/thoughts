@@ -47,3 +47,7 @@ Calendar deconflicting
 OCR for forms
 
 Try out 3JS
+
+Update emacs to use it as a OS
+
+Reminder to use Feynman technique to learn stuff
