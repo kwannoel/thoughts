@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-stack exec thoughts rebuild
+stack run thoughts rebuild
 git checkout -b master
 mkdir docs
 cp -a _site/* docs -r
